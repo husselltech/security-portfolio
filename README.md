@@ -7,7 +7,7 @@ Documented cloud security investigations, built in a live Azure tenant
 
 Target role: SOC Analyst / Security Analyst
 Currently: AV/IT Engineer | Washington D.C.
-Contact: nate@hussell.tech linkedin.com/nhussell
+Contact: nate@hussell.tech linkedin.com/in/nhussell
 
 ## Investigations
 | # | Title | Focus | Write-up |
