@@ -63,8 +63,8 @@ Findings: An improperly named resource was deployed by an intern and flagged as 
 Recommendations: Change the naming policy to Deny so future resources that don't follow the naming standard are blocked. Review the existing non-compliant resource and either rename/remove it if it is no longer needed, or document why it should remain.
 
 ## What I learned
--Learned how Azure Policy works, especially the difference between Audit (reports violations) and Deny (blocks non-compliant resources).
--Learned that resource tags and deployment history can provide useful clues when investigating who created a resource and why.
--As an Azure novice, I found that following the resource's history step-by-step—resource group → resource → deployment → policy—made the investigation much easier to understand.
--What I'd do differently: Next time, I would check the policy's Effect earlier in the investigation, since that quickly explains whether Azure is configured to prevent or simply report violations.
--This investigation helped me see how naming conventions, resource organization, and Azure Policy work together as basic governance controls.
+Learned how Azure Policy works, especially the difference between Audit (reports violations) and Deny (blocks non-compliant resources).
+Learned that resource tags and deployment history can provide useful clues when investigating who created a resource and why.
+As an Azure novice, I found that following the resource's history step-by-step—resource group → resource → deployment → policy—made the investigation much easier to understand.
+What I'd do differently: Next time, I would check the policy's Effect earlier in the investigation, since that quickly explains whether Azure is configured to prevent or simply report violations.
+This investigation helped me see how naming conventions, resource organization, and Azure Policy work together as basic governance controls.
